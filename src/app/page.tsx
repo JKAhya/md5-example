@@ -37,7 +37,7 @@ export default function Home() {
           >
             변환
           </button>
-          <div className="nh text-start w-[85%] rounded-3xl mt-5 px-5 bg-gray-200 justify-self-center flex-none">
+          <div className="nh text-start w-[85%] mt-5 px-5 justify-self-center flex-none">
             <div className="pt-2 pb-2" id="result">
               변환 기록
               {results.map((hash, idx) => (
